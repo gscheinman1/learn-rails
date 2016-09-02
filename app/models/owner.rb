@@ -1,11 +1,11 @@
 class Owner
 
   def name
-    name = 'Foobar Kadigan'
+    name = 'Griffin The Intern'
   end
 
   def birthdate
-    birthdate = Date.new(1990, 12, 22)
+    birthdate = Date.new(1997, 7, 22)
   end
 
   def countdown
@@ -18,4 +18,9 @@ class Owner
     end
   end
 
+  def ucsfcount
+    firstday = Date.new(2016, 6, 20)
+    today = Date.today
+    ucsfcount = (today - firstday).to_i
+  end
 end
